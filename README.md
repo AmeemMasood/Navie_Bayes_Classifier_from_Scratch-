@@ -41,7 +41,8 @@ fit(X, y)
 
 Learns three things from the training data:
 
-Attribute	Shape	Meaning
-_mean	(n_classes, n_features)	Mean of each feature for each class
-_var	(n_classes, n_features)	Variance of each feature for each class
-_priors	(n_classes,)	Fraction of samples in each class
+| Attribute | Shape | Meaning |
+|-----------|-------|---------|
+| `_mean` | `(n_classes, n_features)` | Mean of each feature for each class |
+| `_var` | `(n_classes, n_features)` | Variance of each feature for each class |
+| `_priors` | `(n_classes,)` | Fraction of samples in each class |
