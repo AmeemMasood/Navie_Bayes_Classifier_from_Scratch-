@@ -46,3 +46,13 @@ Learns three things from the training data:
 | `_mean` | `(n_classes, n_features)` | Mean of each feature for each class |
 | `_var` | `(n_classes, n_features)` | Variance of each feature for each class |
 | `_priors` | `(n_classes,)` | Fraction of samples in each class |
+
+
+
+_predict(x)
+
+For each class, adds the log prior to the sum of the per-feature log-likelihoods, then returns the class with the highest total.
+
+predict(X)
+
+Applies _predict to every row of X.
